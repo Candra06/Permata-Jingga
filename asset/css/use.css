@@ -1,0 +1,302 @@
+@font-face{
+	src:url("../fonts/SF Arborcrest Medium.ttf");
+	font-family: "Arborcrest";
+}
+body{
+	padding: 0;
+	margin: 0;
+	font-family: 'Lato', sans-serif;
+}
+a{
+	text-decoration: none;
+}
+h1,h2,h3,h4,h5,h6{
+font-family: 'Josefin Sans', sans-serif;
+	margin:0;
+}
+/*position*/
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.fixed{
+	position: fixed;
+}
+/*img*/
+.img-responsive{
+	width: 100%;
+	height: auto;
+}
+.img-sm{
+	height: 50px;
+}
+.img-bg{
+	height: 230px;
+}
+.img-bgg{
+	width: 200px;
+}
+.img-circle{
+	border-radius: 50%;
+}
+.img-bg-testi{
+	height: auto;
+	width: 180px;
+	margin: 12px;
+}
+.img-sm-testi{
+	margin: 12px;
+	height: auto;;
+	width: 80px;
+}
+fieldset{
+	border: 1px solid #ddd;
+}
+/*floe*/
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.center{
+	margin: 5px auto;
+}
+/*text*/
+.text-sm{
+	font-size:13px;
+}
+.text-left{
+	text-align: left;
+}
+.text-white{
+	color: #fff;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+	clear: both;
+}
+.text-uppercase{
+	text-transform: uppercase;
+}
+.p-standart{
+	letter-spacing: 1px;
+	line-height: 33px;
+}
+.text-capitalize{
+	text-transform: capitalize;
+}
+.text-gray{
+	color: #777;
+}
+.text-light-gray{
+	color: #b7b7b7;
+}
+.text-blue{
+	color: #1bbde8;
+}
+.w3_banner_bottom_grid h2, .agileits_w3layouts_heding h3{
+	font-size: 2.3em;
+}
+.text-red, a{
+	color:#f95452;
+}
+.text-brown{
+	color: #4e280d;
+}
+.text-justify{
+	text-align: justify;
+}
+.webdings{
+	font-family: 'webdings';
+}
+/*card*/
+.card-inline [class*='col']{
+	padding: 0;
+}
+.clear{
+	clear: both;
+}
+.card-header img{
+	height: 200px;
+}
+.card-body{
+	padding: 12px;
+    /* overflow: hidden; */
+}
+.card-body p{
+	/*height: 80px;*/
+}
+.card-uni p{
+	font-size: 14px;
+	height: 126px!important;
+}
+.card{
+	padding: 0!important;
+}
+.tri-top{
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-bottom: 30px solid #606f0c;
+	left: 43%;
+	top: -15%;
+}
+.tri-bottom{
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 30px solid #606f0c;
+	left: 43%;
+	bottom: -15%;
+}
+/*display*/
+.none{
+	display: none;
+}
+.block{
+	display: block;
+}
+
+/*background*/
+.bg-white{
+	background: #fff;
+}
+.bg-blue{
+	background-color: #1bbde8;
+}
+.bg-gray{
+	background: #eee;
+}
+.bg-red{
+	background:#fb7153;
+}
+.bg-dark-red{
+	background:#fb7153;
+}
+.bg-dark{
+	background-color: #1d1d1d;
+}
+.bg-1{
+	background: url(../img/bg1.jpg);
+	height: 300px;
+}
+.bg-2{
+	background: url(../img/bg2.jpg);
+	height: 300px;
+}
+
+
+.bg-brown{
+	background: #606f0c;
+}
+.bg-brown-dark{
+	background: #22250e;
+}
+/*shadow*/
+.shadow{
+	box-shadow: 0 0 20px rgba(0,0,0,.4);
+}
+.shadow-res{
+	box-shadow: 0 4px 8px 0 rgba(141, 140, 140, 0.2), 0 6px 20px 0 rgba(141, 140, 140, 0.2)!important;
+}
+
+/*paralax*/
+.paralax{
+	background-attachment: fixed;
+	background-position: center;
+	background-size: 100% 100%;
+}
+
+/*content*/
+.container{
+	padding: 5% 5%;
+}
+.row{
+	padding: 1% 1%;
+}
+
+/*btn*/
+.btn{
+	color: #fff;
+}
+.btn-brown{
+	background: #22250e;
+}
+.btn-red{
+	background: #f95452;
+}
+.btn-block{
+	width: 100%;
+}
+.btn-blue{
+	background-color: #1bbde8;
+}
+.overflow{
+	overflow: hidden;
+}
+.black-overlay{
+	height: 100%;
+	width: 100%;
+	top: 0;
+	left: 0;
+	background: rgba(0,0,0,.4);
+}
+.nopadding{
+	padding: 0;
+	margin: 0;
+}
+p{
+	font-size: 15px;
+}
+
+
+/*form*/
+.form-group input[type=text],.form-group select,.form-group input[type=password], .form-group input[type=date], .form-group input[type=number], .form-group input[type=email],.form-group textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #ddd;
+	color: #777;
+}
+
+.form-group label{
+	text-transform: capitalize;
+}
+.border-bottom{
+	border-bottom: 1px solid #ddd;
+}
+/*alert*/
+.alert{
+	padding: 12px;
+	width: 100%;
+}
+.alert-danger{
+	background: #ffb9b5;
+	color: #ab1f1f;
+}
+.alert-info{
+	background: #ccefff;
+	color: #0d6d77;
+}
+/*paging*/
+.paging{
+	padding: 0;
+	margin: 0;
+}
+.paging > li{
+	display: inline-block;
+	padding: 12px;
+	height: 45px;
+}
+.paging > li a{
+	color: #fff;
+}
+.title{
+	line-height: 32px;
+}
+.line{
+	line-height: 28px;
+}
